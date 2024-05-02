@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.pageheading{
+    display: flex !important;
+    text-align: center !important;
+    flex-direction: column;
+    font-size: 3rem !important;
+    margin-top: 1rem !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #D1BB9E;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.job-list{
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: row; 
+    box-shadow: 10px 10px;
+    border-radius: 20px !important
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.job-card{
+    height: 35rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 0px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-content{
+    display: flex;
+    flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.heading{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.location{
+    margin-top: 2rem !important;
+    text-transform: capitalize;
+}
+
+.subheading{
+    font-size: 1rem !important;
+    font-style: italic;
+}
+
+.abtheading{
+    font-size: 1.2rem ;
+    font-weight: bold;
+    font-family: __LexendFont_7838d2, __LexendFont_Fallback_7838d2;
+}
+
+.btn{
+    background-color: rgb(85, 239, 196) !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 500 !important;
+    padding: 8px 18px !important;
+}
+
+.content{
+    font-family: __LexendFont_7838d2, __LexendFont_Fallback_7838d2;
+    font-size: 1rem;
+    
+}
+
+.filters{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hr{
+    border: 1px solid gray;
 }
