@@ -58,4 +58,4 @@ In the project directory, you can run the following scripts:
 
 ## Features not Included
 
-- For filter of data not considered filteration on basis of company name, tech stack and remote/onsite is not included since from backend data for those filters were not there, so it was not possible to apply filteration on the given fields.
+- For data filtering, criteria such as company name, tech stack, and remote/onsite status were not included in the backend data. Therefore, it was not possible to apply filtration based on these fields.
