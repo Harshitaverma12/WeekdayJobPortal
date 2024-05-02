@@ -120,7 +120,7 @@ const SearchJob = () => {
         pay={pay}
         remote={remote}
       />
-      <hr className="hr mx-auto border-gray-500 mt-14" /> {/* Job list */}
+      <hr className="hr" /> {/* Job list */}
       <div className="job-list">
         {loading && <p>Loading...</p>}
         {error && <p>Error: {error}</p>}
